@@ -1,0 +1,15 @@
+---
+title: Ablaufdiagramm der Validate-Methode von BasketItem
+---
+
+```mermaid
+flowchart TD
+    A[Start: Validate wird aufgerufen] --> B{Quantity < 1?}
+    B -- Ja --> C[ValidationResult mit Fehler "Invalid number of units" zur Liste hinzufügen]
+    B -- Nein --> D[Keine Fehler hinzufügen]
+    C --> E[Liste der ValidationResults zurückgeben]
+    D --> E[Liste der ValidationResults zurückgeben]
+    E --> F[Ende]
+```
+
+Dieses Diagramm zeigt den Ablauf der Validierung in der Methode <code>Validate</code> der Klasse <code>BasketItem</code>.
