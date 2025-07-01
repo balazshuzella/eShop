@@ -1,0 +1,12 @@
+bug:
+  - "error"
+  - "crash"
+  - "fail"
+feature:
+  - "feature"
+  - "enhancement"
+  - "add"
+documentation:
+  - "docs"
+  - "documentation"
+  - "readme"
